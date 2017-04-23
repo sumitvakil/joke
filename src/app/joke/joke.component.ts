@@ -3,7 +3,7 @@ import {Joke} from '../joke';
 
 
 @Component({
-  selector: 'joke',
+  selector:  'joke',
   templateUrl: './joke.component.html',
   styleUrls: ['./joke.component.css']
 })
