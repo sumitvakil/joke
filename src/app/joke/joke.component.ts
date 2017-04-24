@@ -44,6 +44,10 @@ export class JokeComponent implements OnInit {
     console.log("ngAfterViewInit");
   }
 
+  ngAfterViewChecked() {
+    console.log("ngAfterViewChecked");
+  }
+
   ngOnDestroy() {
     console.log("ngOnDestroy");
   }
